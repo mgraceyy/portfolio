@@ -1,0 +1,238 @@
+.section {
+  position: relative;
+  padding: 120px 0;
+  background-color: var(--color-bg-secondary);
+  transition: background-color var(--transition-theme);
+  overflow: hidden;
+}
+
+.container {
+  position: relative;
+  z-index: 1;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 32px;
+}
+
+.layout {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 72px;
+}
+
+.block {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.blockHeader {
+  padding-bottom: 20px;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.blockTitle {
+  font-family: var(--font-display);
+  font-size: 28px;
+  font-weight: 500;
+  color: var(--color-text);
+  line-height: 1.2;
+}
+
+.blockSubtitle {
+  margin-top: 6px;
+  font-size: 14px;
+  color: var(--color-text-muted);
+}
+
+/* Education timeline */
+.timeline {
+  display: flex;
+  flex-direction: column;
+}
+
+.eduItem {
+  display: flex;
+  gap: 24px;
+}
+
+.eduMarker {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-shrink: 0;
+  width: 16px;
+  padding-top: 6px;
+}
+
+.eduDot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: var(--color-accent);
+  box-shadow: 0 0 0 4px var(--color-bg-secondary), 0 0 0 5px var(--color-accent);
+  flex-shrink: 0;
+}
+
+.eduLine {
+  width: 2px;
+  flex: 1;
+  min-height: 40px;
+  margin-top: 8px;
+  background: var(--color-border);
+}
+
+.eduContent {
+  flex: 1;
+  padding-bottom: 40px;
+}
+
+.eduItem:last-child .eduContent {
+  padding-bottom: 0;
+}
+
+.eduYear {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--color-accent);
+}
+
+.eduTitle {
+  font-family: var(--font-display);
+  font-size: 22px;
+  font-weight: 500;
+  color: var(--color-text);
+  margin-top: 6px;
+  line-height: 1.25;
+}
+
+.eduSchool {
+  font-size: 15px;
+  color: var(--color-text-secondary);
+  margin-top: 4px;
+}
+
+.eduHonor {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 4px 12px;
+  font-family: var(--font-mono);
+  font-size: 10px;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--color-primary);
+  background: var(--color-badge-bg);
+  border-radius: var(--radius-full);
+}
+
+.eduDesc {
+  font-size: 14px;
+  color: var(--color-text-muted);
+  line-height: 1.65;
+  margin-top: 10px;
+  max-width: 520px;
+}
+
+/* Achievement cards */
+.awardGrid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 16px;
+}
+
+.awardCard {
+  background: var(--color-card);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  padding: 24px 28px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  transition: transform 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease,
+    background-color var(--transition-theme);
+}
+
+.awardCard:hover {
+  transform: translateY(-3px);
+  border-color: var(--color-accent);
+  box-shadow: 0 12px 32px var(--color-card-shadow);
+}
+
+.awardBadge {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 4px;
+}
+
+.awardPlacement {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #ffffff;
+  background: var(--gradient-accent);
+  padding: 6px 14px;
+  border-radius: var(--radius-full);
+}
+
+.awardYear {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  color: var(--color-text-muted);
+  letter-spacing: 0.04em;
+}
+
+.awardTitle {
+  font-family: var(--font-display);
+  font-size: 20px;
+  font-weight: 500;
+  color: var(--color-text);
+  line-height: 1.25;
+}
+
+.awardOrg {
+  font-size: 14px;
+  color: var(--color-text-secondary);
+}
+
+.awardDesc {
+  font-size: 13px;
+  color: var(--color-text-muted);
+  line-height: 1.6;
+  margin-top: 4px;
+}
+
+@media (min-width: 900px) {
+  .layout {
+    grid-template-columns: 1fr 1fr;
+    gap: 64px;
+    align-items: start;
+  }
+
+  .awardGrid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (min-width: 1100px) {
+  .awardGrid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 767px) {
+  .container {
+    padding: 0 20px;
+  }
+
+  .layout {
+    gap: 56px;
+  }
+}

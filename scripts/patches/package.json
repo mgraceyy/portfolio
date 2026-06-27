@@ -1,0 +1,33 @@
+{
+  "name": "portfolio",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --config scripts/vite-patched.config.js",
+    "build": "vite build --config scripts/vite-patched.config.js",
+    "build:pages": "node scripts/run-build.mjs",
+    "lint": "node scripts/run-lint.mjs",
+    "preview": "vite preview --config scripts/vite-patched.config.js",
+    "photo:cutout": "node scripts/remove-photo-bg.mjs",
+    "og:image": "node scripts/generate-og-image.mjs",
+    "apply-patches": "node scripts/apply-patches.mjs"
+  },
+  "dependencies": {
+    "react": "^19.2.6",
+    "react-dom": "^19.2.6"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@imgly/background-removal-node": "^1.4.5",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^6.0.1",
+    "eslint": "^10.3.0",
+    "eslint-plugin-react-hooks": "^7.1.1",
+    "eslint-plugin-react-refresh": "^0.5.2",
+    "globals": "^17.6.0",
+    "sharp": "^0.35.2",
+    "vite": "^8.0.12"
+  }
+}

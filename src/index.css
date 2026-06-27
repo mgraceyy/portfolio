@@ -1,0 +1,151 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Manrope', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  font-weight: 400;
+  line-height: 1.65;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Cormorant Garamond', Georgia, 'Times New Roman', serif;
+  font-weight: 500;
+  letter-spacing: -0.01em;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+button {
+  font: inherit;
+}
+
+/* Light — soft blush */
+:root {
+  --color-bg: #fdf7f9;
+  --color-bg-secondary: #fff5f8;
+  --color-bg-tertiary: #fceef3;
+  --color-text: #3d2b36;
+  --color-text-secondary: #7a6570;
+  --color-text-muted: #a8949e;
+  --color-primary: #6b4a5e;
+  --color-primary-light: #8a6278;
+  --color-primary-hover: #5a3d50;
+  --color-accent: #d4849f;
+  --color-accent-light: #e8a8be;
+  --color-lavender: #b8a4c9;
+  --color-surface: #fffbfc;
+  --color-border: #f0dce6;
+  --color-card: #fffbfc;
+  --color-card-shadow: rgba(107, 74, 94, 0.08);
+  --color-card-hover-shadow: rgba(212, 132, 159, 0.18);
+  --color-badge-bg: #fce8f0;
+  --color-badge-text: #6b4a5e;
+  --color-timeline-line: #f0dce6;
+  --color-timeline-dot: #d4849f;
+  --color-nav-bg: rgba(253, 247, 249, 0.82);
+  --color-nav-shadow: rgba(107, 74, 94, 0.06);
+  --color-hero-gradient:
+    radial-gradient(ellipse 70% 55% at 85% 15%, rgba(232, 168, 190, 0.22) 0%, transparent 55%),
+    radial-gradient(ellipse 55% 45% at 10% 85%, rgba(184, 164, 201, 0.18) 0%, transparent 55%),
+    var(--color-bg);
+  --color-shape-primary: rgba(232, 168, 190, 0.35);
+  --color-shape-secondary: rgba(184, 164, 201, 0.3);
+  --color-glow: rgba(212, 132, 159, 0.28);
+  --color-grain: rgba(107, 74, 94, 0.03);
+  --gradient-accent: linear-gradient(135deg, var(--color-accent), var(--color-lavender));
+  --transition-theme: 0.4s cubic-bezier(0.22, 1, 0.36, 1);
+  --radius-sm: 10px;
+  --radius-md: 16px;
+  --radius-lg: 24px;
+  --radius-full: 9999px;
+  --font-display: 'Cormorant Garamond', Georgia, serif;
+  --font-body: 'Manrope', sans-serif;
+  --font-mono: 'DM Mono', monospace;
+}
+
+/* Dark — deep plum */
+[data-theme="dark"] {
+  --color-bg: #18121c;
+  --color-bg-secondary: #211828;
+  --color-bg-tertiary: #2a2030;
+  --color-text: #faf0f4;
+  --color-text-secondary: #c4b0ba;
+  --color-text-muted: #8a7580;
+  --color-primary: #faf0f4;
+  --color-primary-light: #e8d8e0;
+  --color-primary-hover: #ffffff;
+  --color-accent: #e8a4bc;
+  --color-accent-light: #f0bdd0;
+  --color-lavender: #c4b0d8;
+  --color-surface: #211828;
+  --color-border: #3d3040;
+  --color-card: #211828;
+  --color-card-shadow: rgba(0, 0, 0, 0.35);
+  --color-card-hover-shadow: rgba(232, 164, 188, 0.12);
+  --color-badge-bg: #2e2438;
+  --color-badge-text: #f0bdd0;
+  --color-timeline-line: #3d3040;
+  --color-timeline-dot: #e8a4bc;
+  --color-nav-bg: rgba(24, 18, 28, 0.85);
+  --color-nav-shadow: rgba(0, 0, 0, 0.4);
+  --color-hero-gradient:
+    radial-gradient(ellipse 70% 55% at 85% 15%, rgba(232, 164, 188, 0.12) 0%, transparent 55%),
+    radial-gradient(ellipse 55% 45% at 10% 85%, rgba(196, 176, 216, 0.1) 0%, transparent 55%),
+    var(--color-bg);
+  --color-shape-primary: rgba(232, 164, 188, 0.15);
+  --color-shape-secondary: rgba(196, 176, 216, 0.12);
+  --color-glow: rgba(232, 164, 188, 0.2);
+  --color-grain: rgba(255, 255, 255, 0.02);
+}
+
+body {
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  transition: background-color var(--transition-theme), color var(--transition-theme);
+}
+
+::selection {
+  background-color: var(--color-accent);
+  color: #ffffff;
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 3px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    transition-duration: 0.01ms !important;
+    animation-duration: 0.01ms !important;
+  }
+}

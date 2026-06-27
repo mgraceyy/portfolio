@@ -1,0 +1,10 @@
+.parallax {
+  will-change: transform;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .parallax {
+    will-change: auto;
+    transform: none !important;
+  }
+}

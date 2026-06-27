@@ -1,0 +1,10 @@
+Add these scripts to package.json when files are unlocked:
+
+"dev": "vite --config scripts/vite-patched.config.js",
+"build": "vite build --config scripts/vite-patched.config.js",
+"lint": "eslint src scripts/patch-plugin.js scripts/vite-patched.config.js scripts/apply-patches.mjs",
+
+Or run directly:
+  node scripts/run-build.mjs
+  node scripts/run-lint.mjs
+  powershell -File scripts/start-dev.ps1
