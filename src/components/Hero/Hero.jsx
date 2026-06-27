@@ -3,8 +3,15 @@ import { siteConfig } from './siteConfig.js';
 import { Parallax } from '../../src/components/Parallax/Parallax.jsx';
 import styles from './Hero.module.css';
 
+function resolvePublicAsset(path) {
+  if (!path) return '';
+  const normalized = path.replace(/^\//, '');
+  return `${import.meta.env.BASE_URL}${normalized}`;
+}
+
 export function Hero() {
   const [isVisible, setIsVisible] = useState(false);
+  const photoSrc = resolvePublicAsset(siteConfig.photoUrl);
 
   useEffect(() => {
     const timer = setTimeout(() => setIsVisible(true), 80);
@@ -58,9 +65,9 @@ export function Hero() {
             </Parallax>
             <Parallax className={styles.photoParallax} speed={0.2}>
               <div className={styles.photoFrame}>
-                {siteConfig.photoUrl ? (
+                {photoSrc ? (
                   <img
-                    src={siteConfig.photoUrl}
+                    src={photoSrc}
                     alt={`Portrait of ${siteConfig.name}`}
                     className={styles.photo}
                     draggable="false"
