@@ -1,11 +1,13 @@
 # Niño Angelou A. Estremos
-### Music Producer & Multimedia Artist
+### Multimedia Artist & Music Producer
+
++63 997 085 8649 · oninangelou@gmail.com · Catalunan Grande, Davao City
 
 ---
 
 ## About
 
-Niño Angelou Estremos — known creatively as **Onin** — is a self-taught music producer and multimedia artist from the Philippines. His work spans music production, graphic design, animation, and illustration, all tied together by a clean aesthetic sensibility and a deeply personal creative voice.
+Niño Angelou Estremos — known creatively as **Onin** — is a versatile multimedia artist based in Davao City, Philippines, with experience spanning visual brand identity, digital UI/UX design, print production, and 2D/3D animation. He has a proven track record managing end-to-end design workflows, from developing brand systems and video promotion for music projects to building cross-platform digital layouts and production-ready print collateral.
 
 As a musician, Onin crafts emotionally-driven pop and rock tracks that balance retro textures with modern storytelling — drawing from influences like Dayglow, I Don't Know How But They Found Me, IV of Spades, and Prep. As a visual artist, he brings the same intentionality to every frame, poster, and render he creates.
 
@@ -15,10 +17,77 @@ Whether he's producing a debut EP, scoring a film, or animating a short for fun,
 
 ## Services
 
-- **Music Production** — songwriting, recording, mixing, and scoring for film and artists
-- **Graphic Design** — event posters, promotional materials, and visual branding
-- **Animation** — 2D and 3D short-form animation for personal and commercial projects
+- **Brand Identity** — logo modernization, color palettes, and typography guidelines built into a usable brand system
+- **Graphic Design** — event posters, promotional materials, menus, and digital display layouts
+- **UI/UX Design** — responsive, cross-platform interfaces and design systems for desktop, tablet, and mobile
+- **Print Production** — print-ready vector files for packaging labels, sintra board signage, and tarpaulins, plus printing and finishing
+- **Animation** — 2D character animation and 3D environments for tutorials, shorts, and commercial projects
 - **Illustration** — digital character and portrait illustration
+- **Music Production** — songwriting, live tracking, MIDI orchestration, mixing, mastering, and scoring for film and campaigns
+
+---
+
+## Experience
+
+### Graphic Designer — Crumblynn Snack Bar
+*Apr 2026 – Present*
+
+- Developed core color palette and typography guidelines to establish brand identity.
+- Modernized the existing logo according to owner specifications while maintaining original brand recognition.
+- Designed and laminated physical menus and digital display layouts for clear readability.
+- Produced print-ready vector files for adhesive packaging labels and rigid sintra board signage.
+
+### Owner & Print Operator — E.C. Printing
+*Jun 2020 – Present*
+
+- Manages daily operations for document printing, ID photography, photo editing, and lamination services.
+- Secured printing partnerships with the local homeowners' association and GKK community for monthly mass materials.
+- Handles end-to-end file prep, printing, and finishing for all client deliverables.
+
+### Creative Director & Designer — Onin *(Musician Brand)*
+*Feb 2019 – Present*
+
+- Built a complete brand identity system including visual assets, cover art, and promotional graphics.
+- Produced, edited, and color-graded video content for promotional teasers and social media campaigns.
+- Designed cross-channel promotional materials for digital streaming platforms and physical merchandise.
+
+---
+
+## Projects
+
+### Lead Animator & Visual Artist — Timewrap Film Productions Partnership
+*July 2026*
+
+- Co-created an animated audio production tutorial combining 2D character animation within 3D university environments.
+- Produced background assets, character designs, and visual sequences under industry sponsor guidelines.
+
+### UX/UI Designer — KAOS Coffee Shop HR Information System
+*Apr 2026*
+
+- Designed a responsive, cross-platform HRIS tailored to desktop, tablet, and mobile views.
+- Translated company brand guidelines into accessible UI components and design systems.
+
+### Music Composer & Audio Engineer — UM Vinta Yearbook
+*2023 – 2025*
+
+- Composed, arranged, and produced original video scoring for annual university yearbook promotional campaigns.
+- Executed live guitar tracking, MIDI orchestration, mixing, and mastering to deliver polished, broadcast-ready audio.
+
+---
+
+## Education
+
+**Bachelor of Multimedia Arts** — University of Mindanao, Main
+*Jun 2019 – Present*
+
+**Information and Communications Technology (SHS)** — University of Mindanao, Main
+*Jun 2017 – Apr 2019 · with High Honors*
+
+---
+
+## Professional Skills
+
+Adobe Photoshop · Adobe Illustrator · Canva · Figma · Adobe Lightroom · Adobe Premiere Pro · Adobe After Effects · Blender (3D Software) · FL Studio 21
 
 ---
 
@@ -184,10 +253,11 @@ Feel free to reach out for collaborations, commissions, or just to connect.
 
 - 📧 [oninangelou@gmail.com](mailto:oninangelou@gmail.com)
 - 📱 +63 997 085 8649
+- 📍 Catalunan Grande, Davao City
 - 🎵 [Facebook — Onin Music](https://www.facebook.com/oninmusic/)
 - 🎧 [Spotify — OninMusic](https://open.spotify.com/artist/5yprou6hpqUvmFqZaFH9DB)
 - 📺 [YouTube — OninMusic](https://www.youtube.com/@OninMusic)
 
 ---
 
-*© 2025 Niño Angelou A. Estremos. All rights reserved.*
+*© 2026 Niño Angelou A. Estremos. All rights reserved.*

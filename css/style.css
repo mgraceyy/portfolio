@@ -492,6 +492,14 @@ a:hover {
   margin-bottom: 2.5rem;
 }
 
+.resume-intro {
+  max-width: 60ch;
+  color: var(--text-muted);
+  margin-top: -1rem;
+  margin-bottom: 2.5rem;
+  line-height: 1.7;
+}
+
 .resume-block {
   background: var(--card-bg);
   border: 1px solid var(--border);
@@ -509,6 +517,12 @@ a:hover {
   margin-bottom: 1.25rem;
   padding-bottom: 0.5rem;
   border-bottom: 2px solid var(--border);
+}
+
+.resume-edu + .resume-edu {
+  margin-top: 1.25rem;
+  padding-top: 1.25rem;
+  border-top: 1px solid var(--border);
 }
 
 .resume-degree {
@@ -561,6 +575,11 @@ a:hover {
   margin-top: 1.25rem;
 }
 
+/* A trailing odd card fills the row instead of leaving a gap */
+.resume-exp-card:last-child:nth-child(odd) {
+  grid-column: 1 / -1;
+}
+
 .resume-exp-header {
   margin-bottom: 0.75rem;
 }
@@ -570,6 +589,11 @@ a:hover {
   font-weight: 600;
   color: var(--navy);
   margin-bottom: 0.2rem;
+}
+
+.resume-exp-org em {
+  font-weight: 500;
+  color: var(--text-muted);
 }
 
 .resume-exp-role {
@@ -1582,6 +1606,13 @@ a:hover {
 
 .connect-item:hover {
   color: var(--accent);
+}
+
+/* Static rows (e.g. location) aren't links — don't imply they're clickable */
+div.connect-item:hover,
+div.connect-item:hover .connect-icon {
+  color: inherit;
+  box-shadow: var(--shadow);
 }
 
 .connect-icon {
