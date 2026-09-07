@@ -1,5 +1,5 @@
 # Niño Angelou A. Estremos
-### Multimedia Artist & Music Producer
+### Multimedia Artist
 
 +63 997 085 8649 · oninangelou@gmail.com · Catalunan Grande, Davao City
 
@@ -7,11 +7,11 @@
 
 ## About
 
-Niño Angelou Estremos — known creatively as **Onin** — is a versatile multimedia artist based in Davao City, Philippines, with experience spanning visual brand identity, digital UI/UX design, print production, and 2D/3D animation. He has a proven track record managing end-to-end design workflows, from developing brand systems and video promotion for music projects to building cross-platform digital layouts and production-ready print collateral.
+Niño Angelou A. Estremos is a versatile multimedia artist based in Davao City, Philippines, with experience spanning visual brand identity, digital UI/UX design, print production, and 2D/3D animation. He has a proven track record managing end-to-end design workflows, from developing brand systems and video promotion for music projects to building cross-platform digital layouts and production-ready print collateral.
 
-As a musician, Onin crafts emotionally-driven pop and rock tracks that balance retro textures with modern storytelling — drawing from influences like Dayglow, I Don't Know How But They Found Me, IV of Spades, and Prep. As a visual artist, he brings the same intentionality to every frame, poster, and render he creates.
+As a musician he crafts emotionally-driven pop and rock tracks that balance retro textures with modern storytelling — drawing from influences like Dayglow, I Don't Know How But They Found Me, IV of Spades, and Prep; his releases go out under the artist name **Onin**. As a visual artist, he brings the same intentionality to every frame, poster, and render he creates.
 
-Whether he's producing a debut EP, scoring a film, or animating a short for fun, Onin approaches every medium with curiosity, craft, and a spark of nostalgia.
+Whether he's producing an EP, scoring a film, or animating a short for fun, Niño approaches every medium with curiosity, craft, and a spark of nostalgia.
 
 ---
 
@@ -97,11 +97,11 @@ Adobe Photoshop · Adobe Illustrator · Canva · Figma · Adobe Lightroom · Ado
 
 > *Tools: FL Studio, SpectraLayers 10*
 
-Onin is a self-taught pop/rock artist from the Philippines crafting emotionally-driven tracks with a spark of nostalgia and introspection. Blending elements of pop, pop rock, and indie rock, his sound draws from influences like Dayglow, I DON'T KNOW HOW BUT THEY FOUND ME, IV OF SPADES, and Prep — balanced between retro textures and modern storytelling.
+A self-taught pop/rock artist from the Philippines crafting emotionally-driven tracks with a spark of nostalgia and introspection. Blending elements of pop, pop rock, and indie rock, his sound draws from influences like Dayglow, I DON'T KNOW HOW BUT THEY FOUND ME, IV OF SPADES, and Prep — balanced between retro textures and modern storytelling.
 
-Starting out in 2019 with nothing but a guitar, FL Studio, and the tale of IV OF SPADES' humble beginnings, Onin dove into music-making as a one-man band. He officially stepped into the scene in 2022 and dropped his debut EP, *ano kaya ang nasa isip mo?*, in September 2024 — a collection shaped by real-life romantic experiences like confessing, falling in love, and heartbreak.
+Starting out in 2019 with nothing but a guitar, FL Studio, and the tale of IV OF SPADES' humble beginnings, Niño dove into music-making as a one-man band. He officially stepped into the scene in 2022 and dropped his debut EP, *ano kaya ang nasa isip mo?*, in September 2024 — a collection shaped by real-life romantic experiences like confessing, falling in love, and heartbreak.
 
-Outside his own releases, Onin has produced the debut single for rising local band **Haze on Pariahs**, expanding his sonic reach as both an artist and producer.
+Outside his own releases, he has produced the debut single for rising local band **Haze on Pariahs**, expanding his sonic reach as both an artist and producer.
 
 In December 2023, he won **Best Musical Score** at the Mindanao Film Festival for *Lament of the Silent Crow*, and was later featured by **SunStar Davao**, solidifying his place as a local creative force on the rise.
 
@@ -110,7 +110,7 @@ In December 2023, he won **Best Musical Score** at the Mindanao Film Festival fo
 #### Featured Releases
 
 **Heartstruck**
-*A heartfelt pop-rock track from Onin's debut EP — a candid look at the rush and vulnerability of confessing feelings to someone for the first time.*
+*A heartfelt pop-rock track from his debut EP — a candid look at the rush and vulnerability of confessing feelings to someone for the first time.*
 ▶ [Watch on YouTube](https://www.youtube.com/watch?v=CQ_-IsTesU8)
 🎵 [Listen on Spotify](https://open.spotify.com/track/35PMgbjeDo9dsk6RXyHYck)
 
@@ -137,7 +137,12 @@ In December 2023, he won **Best Musical Score** at the Mindanao Film Festival fo
 
 ### 🎨 Graphic Design
 
-> *Tools: Adobe Photoshop*
+> *Tools: Adobe Photoshop, Adobe Illustrator*
+
+**Crumblynn Snack Bar**
+*Brand identity work for a local snack bar — a modernized logo built to owner specifications while preserving original brand recognition, paired with a core color palette and typography guidelines. Extended into laminated physical menus, digital display layouts, and print-ready vector files for adhesive packaging labels and rigid sintra board signage.*
+
+---
 
 **Basagan sa Basement Volume 4**
 *A gritty, punk-inspired gig poster for this underground music event held at Mow's Bar, OC. Dominated by a crumpled yellow background and a shattered glass centerpiece, the design channels raw energy through distressed typography and a ransom-note-style lineup — featuring Thought Funeral, Kalawang, Puppy Fangs, and Sugar Church.*
@@ -161,34 +166,46 @@ In December 2023, he won **Best Musical Score** at the Mindanao Film Festival fo
 
 ### 🎬 Animation
 
-> *Tools: Blender, Adobe Animate, Adobe Premiere Pro, FL Studio*
+> *Tools: Blender, Adobe Animate, Adobe After Effects, Adobe Premiere Pro, FL Studio*
 
-All animation projects below are personal creative explorations — crafted for the love of the craft.
+A sponsored production piece alongside personal creative explorations — crafted for the love of the craft.
+
+---
+
+**Audio Production Tutorial** — Timewrap Film Productions
+*Blender · Adobe After Effects*
+*An animated audio production tutorial co-created under an industry sponsor partnership, combining 2D character animation within 3D university environments. Background assets, character designs, and visual sequences produced to sponsor guidelines.*
+▶ [Watch on YouTube](https://www.youtube.com/watch?v=HvVZkKnfBFg)
 
 ---
 
 **Study Hall**
 *Blender · Adobe Premiere Pro · FL Studio*
+▶ [Watch on YouTube](https://www.youtube.com/shorts/ei4RmG5MUT0)
 
 ---
 
 **Tara Toppings**
 *Blender · Adobe Premiere Pro · FL Studio*
+▶ [Watch on YouTube](https://youtu.be/SU3GUHOQ1fY)
 
 ---
 
 **Walay Klase Bai**
 *Blender · Adobe Premiere Pro · FL Studio*
+▶ [Watch on YouTube](https://youtu.be/NDsG9psgpM8)
 
 ---
 
 **Coolintang**
 *Blender · Adobe Premiere Pro*
+▶ [Watch on YouTube](https://www.youtube.com/shorts/TKmG5CE1Q_E)
 
 ---
 
 **Meowssion Control**
 *Adobe Animate · Adobe Premiere Pro · FL Studio*
+▶ [Watch on YouTube](https://www.youtube.com/watch?v=MpR36G4FudQ)
 
 ---
 
@@ -207,7 +224,7 @@ All animation projects below are personal creative explorations — crafted for 
 ---
 
 **Zendaya**
-*A hyper-realistic digital portrait of Zendaya rendered with exceptional depth and detail. Soft, luminous skin tones, richly textured curly hair, and a calm, direct gaze are set against a muted sage green background. The piece showcases Onin's range as a portrait artist — moving fluidly between illustrative and painterly techniques with impressive technical command.*
+*A hyper-realistic digital portrait of Zendaya rendered with exceptional depth and detail. Soft, luminous skin tones, richly textured curly hair, and a calm, direct gaze are set against a muted sage green background. The piece showcases his range as a portrait artist — moving fluidly between illustrative and painterly techniques with impressive technical command.*
 
 ---
 
@@ -226,7 +243,7 @@ A record of recognition received at film and arts festivals for original music c
 
 ## 🎤 Live Performances
 
-A selection of events and gigs where Onin has performed live — spanning benefit concerts, music festivals, album release parties, and online showcases.
+A selection of events and gigs where he has performed live — spanning benefit concerts, music festivals, album release parties, and online showcases.
 
 1. Tuesday Trinkets: Send-off Gig
 2. Fete de la Musique: Mga Tinugdan

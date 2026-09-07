@@ -132,6 +132,8 @@ animElements.forEach(el => {
 // ===========================
 document.querySelectorAll('.work-card-video').forEach(container => {
   const video = container.querySelector('video');
+  // Cards that link out to YouTube may show a thumbnail instead of a local clip.
+  if (!video) return;
 
   container.addEventListener('mouseenter', () => {
     video.play();
@@ -142,6 +144,9 @@ document.querySelectorAll('.work-card-video').forEach(container => {
     video.pause();
     container.classList.remove('playing');
   });
+
+  // On a linked card the click belongs to the anchor - don't hijack it.
+  if (container.tagName === 'A') return;
 
   container.addEventListener('click', () => {
     if (video.paused) {
@@ -249,3 +254,30 @@ window.addEventListener('scroll', () => {
     hero.style.opacity = 1 - (scrollY / window.innerHeight) * 0.5;
   }
 }, { passive: true });
+
+// ===========================
+// Missing media fallback
+// Shows a labelled placeholder instead of a broken-image icon
+// when a work sample's asset isn't in the repo yet.
+// ===========================
+function markMediaMissing(el) {
+  const wrap = el.closest('.work-card-img, .work-card-video');
+  if (!wrap || wrap.classList.contains('media-missing')) return;
+  wrap.classList.add('media-missing');
+  wrap.removeAttribute('data-lightbox');
+  const card = wrap.closest('.work-card');
+  const title = card ? card.querySelector('h4') : null;
+  wrap.setAttribute('data-missing-label', title ? title.textContent.trim() : 'Preview');
+}
+
+document.querySelectorAll('.work-card-img img').forEach(img => {
+  img.addEventListener('error', () => markMediaMissing(img));
+  if (img.complete && img.naturalWidth === 0) markMediaMissing(img);
+});
+
+document.querySelectorAll('.work-card-video video').forEach(video => {
+  video.addEventListener('error', () => markMediaMissing(video));
+  video.addEventListener('loadedmetadata', () => {
+    if (!video.videoWidth) markMediaMissing(video);
+  });
+});
